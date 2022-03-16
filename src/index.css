@@ -16,3 +16,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Hero */
+.hero-container {
+}
+
+.hero-header-wrapper {
+  background-color: rgb(178, 98, 253);
+}
+
+.hero-header-container {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../src/assets/photos/healthcare_landingpage1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35rem;
+  width: 80rem;
+  border-radius: 20rem;
+}
+
+.hero-header-text {
+  width: 10rem;
+  position: relative;
+  top: 3rem;
+  left: 25rem;
+}
+
+.hero-header-text h1 {
+  font-size: 62px;
+  text-align: left;
+  margin: 0;
+  width: auto;
+  color: rgb(178, 98, 253);
+}
+
+.hero-text {
+  text-align: left;
+}
+
+.hero-text h1 {
+  color: rgb(178, 98, 253);
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text p {
+  font-size: 22px;
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text-btn {
+  height: 4rem;
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text-btn button {
+  background-color: green;
+  color: yellow;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100%;
+  width: 12rem;
+  border-radius: 5rem;
+}
