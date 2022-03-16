@@ -10,7 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Schedule/>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
