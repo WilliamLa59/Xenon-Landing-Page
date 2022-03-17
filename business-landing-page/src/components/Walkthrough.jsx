@@ -3,6 +3,9 @@ import React from 'react'
 export const Walkthrough = () => {
   return (
     <div className='wlkthru-container'>
+        <div className='wlkthru-header'>
+            <h1>How it works</h1>
+        </div>
         <div className='wlkthru-implementation'>
             <h2>Quick implementation</h2>
             <p>

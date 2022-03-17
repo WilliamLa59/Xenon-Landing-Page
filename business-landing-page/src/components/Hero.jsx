@@ -4,7 +4,7 @@ import React from 'react'
 export const Hero = () => {
   return (
     <div className='hero-container'>
-        <div className='CTA'>
+        <div className='hero-text'>
             <h4>We are Luma</h4>
             <h1>We care and appreciate our healthcare workers</h1>
             <p>
@@ -12,11 +12,13 @@ export const Hero = () => {
                 Which is where we come in play. We're devoted to providing the most well rounded and rich wellness program for healthcare workers. 
 
 
-                Our App, Xenon, is a holistic and focuses on reinforcing both the mind and body.
+                Our App, Xenon, is a holistic experience and focuses on reinforcing both the mind and body.
                 We provide confidential support for issues such as stress, substance abuse, depression, and anxiety. As well as offer fitness and meditation exercies. 
             </p>
             
+        </div>
 
+        <div className='hero-cta'>
             <p>provide your organization with the most comprehensive wellness program</p>
             <form action="POST">
                 <input type='text' id='email'></input>
@@ -24,7 +26,6 @@ export const Hero = () => {
                 <button type='submit'>Get Started Now</button>
             </form>
         </div>
-
     </div>
   )
 }
