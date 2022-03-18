@@ -14,7 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 const pages = ["About", "Recipes", "Fitness", "Therapy", "Login", "Register"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-const Navbar = () => {
+export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -46,7 +46,6 @@ const Navbar = () => {
             LOGO
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
             <IconButton
               size="large"
@@ -58,10 +57,6 @@ const Navbar = () => {
             >
               <Button sx={{ my: 2, color: "white", display: "block" }}>
                 Menu
-                  <Button
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-               Menu
               </Button>
             </IconButton>
             <Menu
@@ -78,15 +73,9 @@ const Navbar = () => {
                 vertical: 'bottom',
                 horizontal: 'left',
               }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: "block", md: "none" },
                 display: { xs: 'block', md: 'none' },
               }}
             >
@@ -144,17 +133,6 @@ const Navbar = () => {
               transformOrigin={{
                 vertical: "top",
                 horizontal: "right",
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
               }}
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
