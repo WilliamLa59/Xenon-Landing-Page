@@ -1,23 +1,49 @@
 import React from 'react'
-import homeScreen from '../assets/photos/phone-mockups/home-1080p.png'
+import homeScreen from '../assets/photos/phone-mockups/home-4k.png'
 
+import contactIcon from '../assets/photos/icons/contact.png'
+import supportIcon from '../assets/photos/icons/support.png'
+import challengeIcon from '../assets/photos/icons/challenges.png'
+import trackerIcon from '../assets/photos/icons/tracker.png'
 
 export const Cta = () => {
   return (
     <div className='cta-container'>
         <div className='display-container'>
+            
             <div className='col-1'>
-                <h3>Talk to someone</h3>
-
-                <h3>Connect</h3>
+                <div className='contact-feat top'>
+                    <img className='feat-icon' src={contactIcon} alt="" />
+                    <h3>Talk to someone</h3>
+                    <p>Privately connect with a licensed and professional therapist.</p>
+                </div>
+                
+                <div className='support-feat bot'>
+                    <img className='feat-icon' src={supportIcon} alt="" />
+                    <h3>Connect</h3>
+                    <p>Get connected with peers who may be facing the same issues</p>
+                </div>
             </div>
+
             <div className='col-2'>
-                <img src={homeScreen} alt="" />
+                <img className='phone-mockup'src={homeScreen} alt="" />
             </div>
-            <div className='col-3'>
 
+            <div className='col-3'>
+                <div className='challenges-feat top'>
+                    <img className='feat-icon' src={challengeIcon} alt="" />
+                    <h3>Daily mental and physical challanges</h3>
+                    <p>Complete exersices to help reinforce your mental and physical wellbeing</p>
+                </div>
+                
+                <div className='tracker-feat bot'>
+                    <img className='feat-icon' src={trackerIcon} alt="" />
+                    <h3>Track your progress</h3>
+                    <p>Track things such as mood and how your day went</p>
+                </div>
             </div>
         </div>
+
         <div className='dl-btns'>
 
         </div>

@@ -47,7 +47,6 @@ code {
   text-align: left;
   margin: 0;
   width: 40rem;
-
 }
 
 .hero-text {
@@ -83,4 +82,41 @@ code {
   height: 100%;
   width: 12rem;
   border-radius: 5rem;
+}
+
+/* Cta */
+.display-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.phone-mockup {
+  position: relative;
+  height: 50rem;
+  bottom: 7rem;
+}
+
+.col-1,
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-1 {
+  text-align: right;
+  margin-right: 4rem;
+}
+
+.col-3 {
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.feat-icon {
+  width: 8rem;
+}
+
+.bot {
+  margin-top: 4rem;
 }
