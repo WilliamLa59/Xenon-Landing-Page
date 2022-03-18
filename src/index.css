@@ -22,34 +22,32 @@ code {
 }
 
 .hero-header-wrapper {
-  background-color: rgb(178, 98, 253);
+  background-color: #bf815c;
 }
 
 .hero-header-container {
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../src/assets/photos/healthcare_landingpage1.jpg");
+  background-image: url("../src/assets/photos/male-hand.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 240px;
   height: 35rem;
-  width: 80rem;
-  border-radius: 20rem;
+  width: 60rem;
 }
 
 .hero-header-text {
-  width: 10rem;
-  position: relative;
-  top: 3rem;
-  left: 25rem;
+  width: 17rem;
+  padding-top: 100px;
+  padding-right: 0px;
 }
 
 .hero-header-text h1 {
-  font-size: 62px;
+  font-size: 45px;
   text-align: left;
   margin: 0;
-  width: auto;
-  color: rgb(178, 98, 253);
+  width: 40rem;
+
 }
 
 .hero-text {

@@ -16,7 +16,7 @@ const pages = ['About', 'Recipes', 'Fitness', 'Therapy', 'Login', 'Register'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
-const Navbar = () => {
+export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -142,4 +142,3 @@ const Navbar = () => {
     </AppBar>
   );
 };
-export default Navbar;
