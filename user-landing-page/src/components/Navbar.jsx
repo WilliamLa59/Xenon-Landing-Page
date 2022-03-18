@@ -1,20 +1,18 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Typography from "@mui/material/Typography";
+import Menu from "@mui/material/Menu";
+import Container from "@mui/material/Container";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
+import MenuItem from "@mui/material/MenuItem";
 
-
-const pages = ['About', 'Recipes', 'Fitness', 'Therapy', 'Login', 'Register'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
+const pages = ["About", "Recipes", "Fitness", "Therapy", "Login", "Register"];
+const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -43,11 +41,12 @@ export const Navbar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+            sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
           >
             LOGO
           </Typography>
 
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
             <IconButton
               size="large"
@@ -57,6 +56,8 @@ export const Navbar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
+              <Button sx={{ my: 2, color: "white", display: "block" }}>
+                Menu
                   <Button
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
@@ -67,6 +68,13 @@ export const Navbar = () => {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "left",
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
                 vertical: 'bottom',
                 horizontal: 'left',
               }}
@@ -78,6 +86,7 @@ export const Navbar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
+                display: { xs: "block", md: "none" },
                 display: { xs: 'block', md: 'none' },
               }}
             >
@@ -92,11 +101,20 @@ export const Navbar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'space-evenly' } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: {
+                xs: "none",
+                md: "flex",
+                justifyContent: "space-evenly",
+              },
+            }}
+          >
             {pages.map((page) => (
               <Button
                 key={page}
@@ -115,6 +133,17 @@ export const Navbar = () => {
               </IconButton>
             </Tooltip>
             <Menu
+              sx={{ mt: "45px" }}
+              id="menu-appbar"
+              anchorEl={anchorElUser}
+              anchorOrigin={{
+                vertical: "top",
+                horizontal: "right",
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "right",
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
