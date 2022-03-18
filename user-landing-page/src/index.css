@@ -93,7 +93,7 @@ code {
 .phone-mockup {
   position: relative;
   height: 50rem;
-  bottom: 7rem;
+  top: 1rem;
 }
 
 .col-1,
@@ -101,6 +101,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: auto;
 }
 
 .col-1 {
@@ -119,4 +120,44 @@ code {
 
 .bot {
   margin-top: 4rem;
+}
+
+.dl-btns-content h1 {
+  margin: 0;
+}
+
+.dl-btns-content {
+  background-color: #efe0c9;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.cta-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35%;
+  margin: auto;
+}
+
+.dl-btn {
+  display: flex;
+  width: 12rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.dl-btn span {
+  font-size: 12px;
+  margin: 0;
+}
+
+.dl-btn p {
+  font-size: 18px;
+  margin: auto;
+}
+
+.icon {
+  display: flex;
+  font-size: 3rem;
 }

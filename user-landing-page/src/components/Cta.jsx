@@ -1,4 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGooglePlay } from '@fortawesome/free-brands-svg-icons'
+import { faApple } from '@fortawesome/free-brands-svg-icons'
+
 import homeScreen from '../assets/photos/phone-mockups/home-4k.png'
 
 import contactIcon from '../assets/photos/icons/contact.png'
@@ -44,8 +48,14 @@ export const Cta = () => {
             </div>
         </div>
 
-        <div className='dl-btns'>
-
+        
+        <div className='dl-btns-content'>
+            <h1>Try out our free features now</h1>
+            <h5>Brighten up your day with Xenon</h5>
+            <div className='cta-btn-container'>
+                <button className='dl-btn'><FontAwesomeIcon className='icon' icon={faApple} size/><p><span>Download on the <br/></span>Apple Store</p></button>
+                <button className='dl-btn'><FontAwesomeIcon className='icon' icon={faGooglePlay}/><p><span>Get it on <br/></span>Google Store</p></button>
+            </div>
         </div>
 
     </div>
