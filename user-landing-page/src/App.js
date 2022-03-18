@@ -8,7 +8,6 @@ import { Cta } from './components/Cta';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Hero/>
       <Schedule/>
       <Cta/>
