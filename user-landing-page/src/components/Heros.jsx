@@ -6,9 +6,7 @@ export const Hero = () => {
         <div className='hero-header-wrapper'>
             <div className='hero-header-container'>
                 <div className='hero-header-text'>
-                    <h1>Improving</h1>
-                    <h1>Lives</h1>
-                    <h1>Together</h1>
+                <h1>Improve your mental health and be happier</h1>
                 </div>
             </div>
         </div>
