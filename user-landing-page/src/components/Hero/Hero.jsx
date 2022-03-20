@@ -1,8 +1,11 @@
 import React from 'react'
+
+import logo from '../../assets/icons/logo.png'
 import island1 from '../../assets/graphics/island 1.png'
 import island2 from '../../assets/graphics/island 2.png'
 import bm from '../../assets/graphics/bm.png'
 import vine from '../../assets/graphics/plant.png'
+import tree from '../../assets/graphics/tree.png'
 
 import './Hero.scss'
 
@@ -13,6 +16,12 @@ export const Hero = () => {
             <div className='hero-header-text'>
                 <img className='vine' src={vine} alt="" />
                 <container className='text-container'>
+                    
+                    <div className='logo-container'> 
+                        <img className='logo' src={logo} alt="" />
+                        <h2 className='title' >Xenon <br /><span>by Luma</span></h2>
+                    </div>
+                   
                     <h1>Improving Lives Together.</h1>
                     <p>
                         The Xenon Method is designed to 
@@ -22,9 +31,10 @@ export const Hero = () => {
                         lifestyle connecting the mind, body & soul. 
                     </p>
                     <p className='sub'>Begin your #xenonlifestyle today!</p>
+
+                    <button><p>Get Started</p></button>
                 </container>
             </div>
-
             <img className='bm1'src={bm} alt="" />
         </div>
 
@@ -34,26 +44,23 @@ export const Hero = () => {
         </div>
 
         <div className='about-us'>
-            <h2>Who are we?</h2>
-
+            
+            <h2>What is Xenon?</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet sem id
-                mi ornare vehicula. Nulla imperdiet,
-                leo non tristique sagittis, velit leo
-                mattis enim, quis pellentesque magna
-                diam eget nisi. Fusce varius urna
-                diam, nec dictum quam eleifend id 
-            </p>
-
-            <p>
-                Etiam in fermentum neque. Donec
-                arcu ante, consectetur et aliquam
-                vitae, finibus a leo. Vivamus eu porttitor nisl. Pellentesque habitant morbi
-                tristique senectus et netus et malesuada fames ac turpis egestas. Nunc
-                ut sagittis neque. Integer hendrerit
-                non lorem sit amet tempus. Proin
+                Xenon, is a wellness app targeted towards healthcare workers. It aims to provide a holistic experience and focuses on reinforcing both the mind and body.
+                With daily exercise and meditation exercises, and many more features.
+                Our goal with Xenon is to help reduce and prevent stress and burnout.
             </p>
             <hr/>
+            <p>
+                Xenon can be used on its own by an individual user, but trives when implemented within an organization.
+
+            </p>
+            <hr/>
+            <h2>Who are we?</h2>
+            <p>
+            We are <span>Luma </span> a company build off the appreciation for healthcare workers. 
+            </p>
         </div>
     </div>
   )

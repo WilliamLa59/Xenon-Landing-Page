@@ -1,8 +1,12 @@
 @import "../Shared/shared.scss";
 
+// .hero-header {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+// }
+
 .hero-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 
 .hero-header-text {
@@ -18,7 +22,6 @@
   position: relative;
   right: 2rem;
   width: 30rem;
-  margin-top: 18rem;
   h1 {
     font-family: $titleFont;
     font-size: 62px;
@@ -37,13 +40,52 @@
   .sub {
     margin-top: 1rem;
   }
+  button {
+    background-color: $baseGreen;
+    color: white;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    p {
+      margin: auto;
+      font-size: 20px;
+    }
+  }
+  .logo-container {
+    font-family: $generalFont;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    .logo {
+      width: 5rem;
+      height: 5rem;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 1rem;
+    }
+    h2 {
+      text-align: left;
+      font-size: 28px;
+      height: 3rem;
+      font-weight: 500;
+    }
+    span {
+      position: relative;
+      bottom: 1rem;
+      font-size: 12px;
+      margin-bottom: auto;
+    }
+  }
 }
 
 .bm1 {
   height: 65rem;
   position: relative;
   bottom: 5rem;
-  left: 5rem;
+  margin-left: auto;
+  margin-right: 12rem;
 }
 
 .island-container {
