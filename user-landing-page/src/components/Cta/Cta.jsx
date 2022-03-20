@@ -5,10 +5,10 @@ import { faApple } from '@fortawesome/free-brands-svg-icons'
 
 import homeScreen from '../../assets/photos/phone-mockups/home-4k.png'
 
-import contactIcon from '../../assets/photos/icons/contact.png'
-import supportIcon from '../../assets/photos/icons/support.png'
-import challengeIcon from '../../assets/photos/icons/challenges.png'
-import trackerIcon from '../../assets/photos/icons/tracker.png'
+import contactIcon from '../../assets/icons/contact.png'
+import supportIcon from '../../assets/icons/support.png'
+import challengeIcon from '../../assets/icons/challenges.png'
+import trackerIcon from '../../assets/icons/tracker.png'
 
 import './Cta.scss'
 
