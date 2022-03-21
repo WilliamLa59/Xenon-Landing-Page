@@ -2,7 +2,7 @@
   "name": "xenon-landing-page",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://williamla59.github.io/xenon-landing-page/",
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
