@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c874d36.css",
-    "main.js": "/static/js/main.8290e819.js",
-    "static/media/therapist-proto.png": "/static/media/therapist-proto.9afc8f3625c459baf899.png",
-    "static/media/home-4k.png": "/static/media/home-4k.537e2b93ca9d86cf1814.png",
-    "static/media/login-proto.png": "/static/media/login-proto.3f680262fe7e97def8d2.png",
-    "static/media/home-proto.png": "/static/media/home-proto.3878ad0f60f7cf1d33b1.png",
-    "static/media/bm.png": "/static/media/bm.feecebbf75e6dcd2c53b.png",
-    "static/media/bm 2.png": "/static/media/bm 2.9364272e188368ef3bce.png",
-    "static/media/nurse2.jpg": "/static/media/nurse2.547b454616c8baf65cbe.jpg",
-    "static/media/tree.png": "/static/media/tree.25e014f06fb4e5938b3b.png",
-    "static/media/doctor.jpg": "/static/media/doctor.d32517a78ae351ab9e5a.jpg",
-    "static/media/plant.png": "/static/media/plant.4a54895b9c3f59437cc9.png",
-    "static/media/nurse1.jpg": "/static/media/nurse1.44188285490918019d49.jpg",
-    "static/media/island 1.png": "/static/media/island 1.aca0d32248d1bd371d7c.png",
-    "static/media/island 2.png": "/static/media/island 2.8467481b8680b3463827.png",
-    "index.html": "/index.html",
-    "main.1c874d36.css.map": "/static/css/main.1c874d36.css.map",
-    "main.8290e819.js.map": "/static/js/main.8290e819.js.map"
+    "main.css": "/Xenon-Landing-Page/static/css/main.1c874d36.css",
+    "main.js": "/Xenon-Landing-Page/static/js/main.08173a81.js",
+    "static/media/therapist-proto.png": "/Xenon-Landing-Page/static/media/therapist-proto.9afc8f3625c459baf899.png",
+    "static/media/home-4k.png": "/Xenon-Landing-Page/static/media/home-4k.537e2b93ca9d86cf1814.png",
+    "static/media/login-proto.png": "/Xenon-Landing-Page/static/media/login-proto.3f680262fe7e97def8d2.png",
+    "static/media/home-proto.png": "/Xenon-Landing-Page/static/media/home-proto.3878ad0f60f7cf1d33b1.png",
+    "static/media/bm.png": "/Xenon-Landing-Page/static/media/bm.feecebbf75e6dcd2c53b.png",
+    "static/media/bm 2.png": "/Xenon-Landing-Page/static/media/bm 2.9364272e188368ef3bce.png",
+    "static/media/nurse2.jpg": "/Xenon-Landing-Page/static/media/nurse2.547b454616c8baf65cbe.jpg",
+    "static/media/tree.png": "/Xenon-Landing-Page/static/media/tree.25e014f06fb4e5938b3b.png",
+    "static/media/doctor.jpg": "/Xenon-Landing-Page/static/media/doctor.d32517a78ae351ab9e5a.jpg",
+    "static/media/plant.png": "/Xenon-Landing-Page/static/media/plant.4a54895b9c3f59437cc9.png",
+    "static/media/nurse1.jpg": "/Xenon-Landing-Page/static/media/nurse1.44188285490918019d49.jpg",
+    "static/media/island 1.png": "/Xenon-Landing-Page/static/media/island 1.aca0d32248d1bd371d7c.png",
+    "static/media/island 2.png": "/Xenon-Landing-Page/static/media/island 2.8467481b8680b3463827.png",
+    "index.html": "/Xenon-Landing-Page/index.html",
+    "main.1c874d36.css.map": "/Xenon-Landing-Page/static/css/main.1c874d36.css.map",
+    "main.08173a81.js.map": "/Xenon-Landing-Page/static/js/main.08173a81.js.map"
   },
   "entrypoints": [
     "static/css/main.1c874d36.css",
-    "static/js/main.8290e819.js"
+    "static/js/main.08173a81.js"
   ]
 }
