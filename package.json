@@ -2,7 +2,7 @@
   "name": "xenon-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://williamla59.github.io/Xenon-Landing-Page",
+  "homepage": "https://williamla59.github.io/xenon-landing-page",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages-clean gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
