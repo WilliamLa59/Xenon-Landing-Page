@@ -1,0 +1,17 @@
+@import "../Shared/shared.scss";
+
+.socials-container {
+  margin: 4rem 0;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  .icon {
+    cursor: pointer;
+    color: white;
+  }
+}

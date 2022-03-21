@@ -23,6 +23,7 @@ export const Hero = () => {
                     </div>
                    
                     <h1>Improving Lives Together.</h1>
+                    <div className='vertical-line'></div>
                     <p>
                         The Xenon Method is designed to 
                         inspire and guide healthcare workers 
@@ -31,6 +32,8 @@ export const Hero = () => {
                         lifestyle connecting the mind, body & soul. 
                     </p>
                     <p className='sub'>Begin your #xenonlifestyle today!</p>
+                 
+                   
 
                     <button><p>Get Started</p></button>
                 </container>
@@ -44,23 +47,29 @@ export const Hero = () => {
         </div>
 
         <div className='about-us'>
-            
+            <h2>Who are we?</h2>
+            <p>
+                We are <span>Luma </span> a small team built off the appreciation for healthcare workers. We develop app with the goal of improving the worker experience within the healthcare industry. 
+            </p>
+            <hr/>
             <h2>What is Xenon?</h2>
             <p>
-                Xenon, is a wellness app targeted towards healthcare workers. It aims to provide a holistic experience and focuses on reinforcing both the mind and body.
+                Xenon is a wellness app targeted towards healthcare workers. 
+                It aims to provide a holistic experience that focuses on reinforcing both the mind and body.
                 With daily exercise and meditation exercises, and many more features.
                 Our goal with Xenon is to help reduce and prevent stress and burnout.
             </p>
             <hr/>
+            <h2>Who can use Xenon?</h2>
             <p>
+                ANYONE! 
+                While it was designed for healthcare workers, our free features allows it to be used as a general wellness application for just about everyone!
                 Xenon can be used on its own by an individual user, but trives when implemented within an organization.
-
             </p>
+            <button><p>Personal Use</p></button>
+            <button><p>Use within Organization</p></button>
             <hr/>
-            <h2>Who are we?</h2>
-            <p>
-            We are <span>Luma </span> a company build off the appreciation for healthcare workers. 
-            </p>
+            
         </div>
     </div>
   )

@@ -1,0 +1,67 @@
+@import "../Shared/shared.scss";
+
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem auto;
+}
+
+.feat-img-container {
+  margin-left: auto;
+  margin-right: 4rem;
+  img {
+    height: 60rem;
+  }
+}
+
+.feat-text-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  .back-div {
+    height: 1rem;
+    width: 1rem;
+    margin: auto;
+    .background {
+      background-color: $baseBeige;
+      border-radius: 3rem;
+      width: 50rem;
+      height: 20rem;
+      position: relative;
+      bottom: 9.65rem;
+      right: 24.5rem;
+      z-index: -1;
+      outline: 2px solid white;
+      outline-offset: 0.5rem;
+    }
+  }
+  .feat-row {
+    display: flex;
+    margin: auto;
+    .col1-item {
+      p {
+        margin-bottom: 2rem;
+      }
+    }
+    .col2-item {
+      h2 {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    width: 25rem;
+  }
+}
+
+.feat-text-container::before {
+  content: "";
+  width: 30rem;
+  height: 30rem;
+  background-color: $baseBeige;
+}
