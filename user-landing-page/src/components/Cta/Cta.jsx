@@ -15,12 +15,12 @@ export const Cta = () => {
             <h1>Try out our free features now</h1>
             <h5>Brighten up your day with Xenon</h5>
             <div className='cta-btn-container'>
-                <button className='dl-btn'><FontAwesomeIcon className='icon' icon={faApple} size/><p><span>Download on the <br/></span>Apple Store</p></button>
-                <button className='dl-btn'><FontAwesomeIcon className='icon' icon={faGooglePlay}/><p><span>Get it on <br/></span>Google Store</p></button>
+                <button className='dl-btn'><FontAwesomeIcon className='icon apple-store' icon={faApple} /><p><span>Available on the <br/></span>Apple Store</p></button>
+                <button className='dl-btn'><FontAwesomeIcon className='icon google-play' icon={faGooglePlay}/><p><span>Get it on <br/></span>Google Play</p></button>
             </div>
-            <h2>Or</h2>
-            <p>Learn how to go about implementing Xenon within your orgranization</p>
-            <button>Learn More</button>
+            <h1>Or</h1>
+            <h5>Learn how to implement Xenon within your orgranization</h5>
+            <button className='learn-btn'><p>Learn More</p></button>
         </div>
 
     </div>

@@ -12,10 +12,10 @@ export const Socials = () => {
     <div className='socials-container'>
       <h2>Connect with us</h2>
       <div className='icon-container'>
-        <FontAwesomeIcon className='icon start' icon={faInstagram}/>
-        <FontAwesomeIcon className='icon' icon={faTwitter}/>
-        <FontAwesomeIcon className='icon' icon={faTiktok}/>
-        <FontAwesomeIcon className='icon end' icon={faYoutube}/>
+        <FontAwesomeIcon className='icon-social' icon={faInstagram}/>
+        <FontAwesomeIcon className='icon-social' icon={faTwitter}/>
+        <FontAwesomeIcon className='icon-social' icon={faTiktok}/>
+        <FontAwesomeIcon className='icon-social' icon={faYoutube}/>
       </div>
       
     </div>

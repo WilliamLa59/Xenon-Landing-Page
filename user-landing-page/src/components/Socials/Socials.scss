@@ -1,7 +1,14 @@
 @import "../Shared/shared.scss";
 
 .socials-container {
-  margin: 4rem 0;
+  // background-color: $baseBeige;
+  // border-radius: 5rem 5rem 0 0;
+  padding: 4rem 0;
+  h2 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 }
 
 .icon-container {
@@ -10,7 +17,7 @@
   width: 30rem;
   margin-left: auto;
   margin-right: auto;
-  .icon {
+  .icon-social {
     cursor: pointer;
     color: white;
   }

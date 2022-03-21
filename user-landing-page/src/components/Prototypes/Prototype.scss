@@ -1,8 +1,21 @@
 @import "../Shared/shared.scss";
 
 .prototype-container {
-  width: 40%;
+  background-color: white;
+  font-family: $generalFont;
+
   margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .prototype-background-wrapper {
+    width: 40rem;
+    margin: 0 auto;
+  }
 }
 
 .rec {

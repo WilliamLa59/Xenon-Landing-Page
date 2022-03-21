@@ -1,14 +1,21 @@
 @import "../Shared/shared.scss";
 
 .features-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 4rem auto;
+  font-family: $generalFont;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12rem auto;
+  margin-bottom: 8rem;
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
 }
 
 .feat-img-container {
-  margin-left: auto;
-  margin-right: 4rem;
+  // margin-left: auto;
+  // margin-right: 4rem;
   img {
     height: 60rem;
   }
@@ -17,7 +24,7 @@
 .feat-text-container {
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: auto;
+  // margin-right: auto;
   .back-div {
     height: 1rem;
     width: 1rem;

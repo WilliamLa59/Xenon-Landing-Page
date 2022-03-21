@@ -1,11 +1,26 @@
 @import "../Shared/shared.scss";
 
+.cta-container {
+  font-family: $generalFont;
+  color: white;
+  h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  h5 {
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
 .dl-btns-content h1 {
   margin: 0;
 }
 
 .dl-btns-content {
-  background-color: #efe0c9;
+  background-color: $baseGreen;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -16,26 +31,49 @@
   justify-content: space-evenly;
   width: 35%;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .dl-btn {
+  background-color: $baseBeige;
+  font-family: $generalFont;
   display: flex;
   width: 12rem;
   text-align: center;
   border-radius: 0.5rem;
-}
-
-.dl-btn span {
-  font-size: 12px;
-  margin: 0;
-}
-
-.dl-btn p {
-  font-size: 18px;
-  margin: auto;
+  text-align: left;
+  span {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+  }
+  p {
+    font-size: 20px;
+    margin: auto;
+  }
 }
 
 .icon {
   display: flex;
+  color: $baseOrange;
+}
+.apple-store {
+  margin: auto 0;
   font-size: 3rem;
+}
+.google-play {
+  margin: auto 0;
+  font-size: 2.5rem;
+}
+
+.learn-btn {
+  font-family: $generalFont;
+  background-color: $baseBeige;
+  width: 12rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  p {
+    font-size: 18px;
+    margin: auto;
+  }
 }

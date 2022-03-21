@@ -66,8 +66,10 @@ export const Hero = () => {
                 While it was designed for healthcare workers, our free features allows it to be used as a general wellness application for just about everyone!
                 Xenon can be used on its own by an individual user, but trives when implemented within an organization.
             </p>
-            <button><p>Personal Use</p></button>
-            <button><p>Use within Organization</p></button>
+            <div className='about-btns'>
+                <button className='personal-btn'><p>Personal Use</p></button>
+                <button className='business-btn'><p>Use within Organization</p></button>
+            </div>
             <hr/>
             
         </div>

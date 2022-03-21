@@ -1,1 +1,24 @@
 @import "../Shared/shared.scss";
+
+.footer-container {
+  background-color: $baseGreen;
+  padding-bottom: 2rem;
+
+  hr {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border: 1px solid $baseDarkBrown;
+    width: 25%;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+}

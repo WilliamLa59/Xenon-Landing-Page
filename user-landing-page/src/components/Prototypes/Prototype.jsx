@@ -11,14 +11,18 @@ export const Prototype = () => {
     
   return (
     <div className='prototype-container'>
+      <div className='prototype-background-wrapper'>
         <h1>A Sneakpeak into the Xenon App</h1>
-        <div className='carousel'>
-            <Carousel>
-                <img src={loginScreen} alt="" />
-                <img src={homeScreen} alt="" />
-                <img src={therapistScreen} alt="" />
-            </Carousel>
+          <div className='carousel'>
+              <Carousel>
+                  <img src={loginScreen} alt="" />
+                  <img src={homeScreen} alt="" />
+                  <img src={therapistScreen} alt="" />
+              </Carousel>
         </div>
+      </div>
+        
+
     </div>
   )
 }
