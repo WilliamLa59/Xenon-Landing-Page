@@ -5,6 +5,9 @@
 //   grid-template-columns: 1fr 1fr;
 // }
 
+.hero-container {
+}
+
 .hero-header {
   display: flex;
 }
@@ -96,7 +99,6 @@
   bottom: 5rem;
   margin-left: auto;
   right: 12rem;
-  z-index: -1;
 }
 
 .island-container {
@@ -125,6 +127,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding-bottom: 2rem;
   // bottom: 30rem;
   h2 {
     font-size: 35px;

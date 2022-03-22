@@ -1,16 +1,19 @@
 @import "../Shared/shared.scss";
 
 .testimonial-container {
-  background-color: white;
+  font-family: $generalFont;
+  //background: linear-gradient(to bottom, $baseBeige, white);
   padding: 1rem;
 
   h1 {
     margin: 0;
     color: $baseDarkBrown;
+    font-weight: 400;
   }
   h4 {
     margin: 0;
     color: $baseDarkBrown;
+    font-weight: 500;
   }
   hr {
     border: 1px solid $baseDarkBrown;
@@ -27,7 +30,8 @@
 }
 
 .card {
-  background-color: $baseBeige;
+  font-family: $generalFont;
+  //background-color: $baseBeige;
   border-radius: 1rem;
   outline: 4px solid $baseGreen;
   outline-offset: 12px;
@@ -47,6 +51,9 @@
       height: 8rem;
       border-radius: 100%;
       border: 4px solid $baseRed;
+    }
+    h4 {
+      opacity: 0.75;
     }
   }
 }
