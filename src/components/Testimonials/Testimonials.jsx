@@ -20,7 +20,7 @@ export const Testimonials = () => {
                 </div>
             </div>
 
-            <div className='card'>
+            <div className='card middle-card'>
                 <div className='card-content'>
                     <p>Xenon makes it way easier to meet with my therapist.</p>
                     <img className='dp' src={doctor} alt="" />

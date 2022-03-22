@@ -77,3 +77,15 @@
     margin: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .cta-btn-container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 425px) {
+  .cta-btn-container {
+    width: 100%;
+  }
+}

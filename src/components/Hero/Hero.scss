@@ -11,6 +11,7 @@
 
 .hero-header-text {
   display: flex;
+  width: 100%;
 }
 
 .vine {
@@ -94,7 +95,8 @@
   position: relative;
   bottom: 5rem;
   margin-left: auto;
-  margin-right: 12rem;
+  right: 12rem;
+  z-index: -1;
 }
 
 .island-container {
@@ -171,6 +173,121 @@
       border: 2px solid $baseGreen;
       background-color: $baseGreen;
       color: white;
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .bm1 {
+    right: 25%;
+  }
+  .island-container {
+    .island1 {
+      width: 50%;
+    }
+    .island2 {
+      width: 45%;
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .bm1 {
+    width: 60%;
+    right: 30%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bm1 {
+    width: 35rem;
+    right: 15rem;
+  }
+
+  .island-container {
+    .island1 {
+      width: 30rem;
+    }
+    .island2 {
+      width: 25rem;
+    }
+  }
+}
+
+@media (max-width: 1012px) {
+  .bm1 {
+    width: 35rem;
+    right: 20rem;
+  }
+}
+
+@media (max-width: 932px) {
+  .bm1 {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .island-container {
+    height: 64rem;
+    .island1 {
+      width: 100%;
+      position: relative;
+      bottom: 5rem;
+    }
+  }
+  .bm1,
+  .island2 {
+    display: none;
+  }
+}
+
+@media (max-width: 659px) {
+  .text-container {
+    position: relative;
+    width: 90%;
+    transform: scale(0.8);
+    right: 25%;
+  }
+  .hero-header-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .text-container {
+    right: 30%;
+  }
+  .island-container {
+    height: 40rem;
+    margin-bottom: 0;
+    .island1 {
+      height: 50rem;
+      width: 100%;
+      position: relative;
+      bottom: 5rem;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .about-us {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .text-container {
+    right: 55%;
+  }
+  .island-container {
+    height: 30rem;
+    margin-bottom: 0;
+    .island1 {
+      height: 40rem;
+      width: 100%;
+      position: relative;
+      bottom: 5rem;
     }
   }
 }

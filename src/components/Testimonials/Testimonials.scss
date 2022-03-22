@@ -50,3 +50,64 @@
     }
   }
 }
+
+@media (max-width: 1370px) {
+  .card-container {
+    width: 80%;
+  }
+  .card {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-container {
+    width: 80%;
+  }
+
+  .card {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 100%;
+  }
+  .card {
+    width: 25%;
+    outline: 2px solid $baseGreen;
+    outline-offset: 8px;
+    .card-content {
+      .dp {
+        margin-top: 4rem;
+        width: 6rem;
+        height: 6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-card {
+    margin: 4rem 0;
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    outline: 2px solid $baseGreen;
+    outline-offset: 8px;
+    .card-content {
+      .dp {
+        margin-top: 2rem;
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+  }
+}

@@ -14,7 +14,7 @@ export const Prototype = () => {
       <div className='prototype-background-wrapper'>
         <h1>A Sneakpeak into the Xenon App</h1>
           <div className='carousel'>
-              <Carousel>
+              <Carousel className='carousel'>
                   <img src={loginScreen} alt="" />
                   <img src={homeScreen} alt="" />
                   <img src={therapistScreen} alt="" />
