@@ -7,6 +7,11 @@
   margin: 0 auto;
   padding: 12rem 0;
   padding-bottom: 8rem;
+  h1 {
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
   h3 {
     font-size: 18px;
     font-weight: 500;
@@ -94,6 +99,12 @@
 }
 
 @media (max-width: 1024px) {
+  .features-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .feat-text-container {
     position: relative;
     top: 0rem;
@@ -106,7 +117,9 @@
 
 @media (max-width: 798px) {
   .features-container {
-    margin-top: 8rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
   }
   .features-container {
     transform: scale(0.9);
@@ -115,11 +128,21 @@
 
 @media (max-width: 718px) {
   .features-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
+  }
+  .features-container {
     transform: scale(0.8);
   }
 }
 
 @media (max-width: 425px) {
+  .features-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
+  }
   .feat-text-container {
     .back-div {
       .background {
@@ -160,6 +183,11 @@
 }
 
 @media (max-width: 375px) {
+  .features-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
+  }
   .feat-text-container {
     transform: scale(0.9);
     .back-div {
@@ -173,6 +201,11 @@
 }
 
 @media (max-width: 320px) {
+  .features-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
+  }
   .feat-text-container {
     transform: scale(0.8);
     .back-div {

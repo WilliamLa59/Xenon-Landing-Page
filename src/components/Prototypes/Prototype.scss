@@ -11,6 +11,7 @@
     font-size: 35px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-bottom: 2rem;
   }
   .prototype-background-wrapper {
     width: 40rem;
@@ -62,11 +63,12 @@
     .prototype-background-wrapper {
       width: 425px;
       h1 {
-        transform: scale(0.7);
+        transform: scale(0.9);
+        margin-bottom: 2rem;
       }
     }
     .carousel {
-      transform: scale(0.9);
+      width: 100%;
       margin: 0 auto;
       img {
         width: 100%;
@@ -81,11 +83,12 @@
     .prototype-background-wrapper {
       width: 375px;
       h1 {
-        transform: scale(0.5);
+        transform: scale(0.8);
+        margin-bottom: 2rem;
       }
     }
     .carousel {
-      transform: scale(0.9);
+      width: 100%;
       margin: 0 auto;
       img {
         width: 100%;
@@ -100,11 +103,12 @@
     .prototype-background-wrapper {
       width: 320px;
       h1 {
-        transform: scale(0.5);
+        transform: scale(0.8);
+        margin-bottom: 2rem;
       }
     }
     .carousel {
-      transform: scale(0.9);
+      width: 100%;
       margin: 0 auto;
       img {
         width: 100%;

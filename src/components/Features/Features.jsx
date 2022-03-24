@@ -19,6 +19,7 @@ export const Features = () => {
        </div>
 
        <div className='feat-text-container'>
+           <h1>Our Features</h1>
             <div className='feat-row'>
                 <div className='col1-item top-item'>
                     <h3>Track your progress</h3>

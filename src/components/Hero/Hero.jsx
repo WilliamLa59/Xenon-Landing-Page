@@ -35,7 +35,7 @@ export const Hero = () => {
                  
                    
 
-                    <button><p>Get Started</p></button>
+                    <button className="get-started-btn"><p>Get Started</p></button>
                 </container>
             </div>
             <img className='bm1'src={bm} alt="" />
